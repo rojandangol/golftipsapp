@@ -1,0 +1,37 @@
+{
+  "name": "golf-tips-for-the-weekend-warriors",
+  "version": "1.0.0",
+  "description": "Jira Backlog Link:\r https://avadennis117.atlassian.net/jira/software/projects/TICKET/boards/1/backlog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://whitgit.whitworth.edu/2025/spring/CS-472-1/Group_Projects/golf-tips-for-the-weekend-warriors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@react-native-google-signin/google-signin": "^16.0.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.2.1",
+    "express-validator": "^7.3.1",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.1",
+    "nodemailer": "^7.0.11",
+    "nodemon": "^3.1.9",
+    "react-native-bcrypt": "^2.4.0",
+    "redis": "^5.10.0",
+    "stripe": "^18.1.0"
+  }
+}
